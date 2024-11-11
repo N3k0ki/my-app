@@ -62,7 +62,7 @@ export function Register() {
                         <button className="enter_button" type="submit"
                             onClick={() => {
                                 enviar();
-                                navigate('/')
+                                navigate('/terms')
                             }}
                         >Registre-se</button>
                     </form>
